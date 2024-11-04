@@ -1,4 +1,5 @@
 // package day2;
+//swap the two numbers without using the third variable
 
 public class SwapNum {
 
