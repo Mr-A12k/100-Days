@@ -5,9 +5,9 @@ import java.util.*;
 class MoveZeroToEnd{
     public static void main(String args[]){
         int[] a= {1,5,0,5,2,0,8};
-        for(int i=0; i<a.length; i++){
-            System.out.print(a[i] + " ");
-        }
+        // for(int i=0; i<a.length; i++){
+        //     System.out.print(a[i] + " ");
+        // }
         System.out.println();
         int arr[] = moveZeroToEnd(a);
         System.out.println(Arrays.toString(arr));
