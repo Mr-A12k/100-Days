@@ -145,3 +145,5 @@ public class HollowPatterns {
     }
 
 }
+
+// New patterns comming
