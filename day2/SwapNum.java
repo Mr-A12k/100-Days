@@ -1,8 +1,5 @@
 package day2;
 
-// package day2;
-//swap the two numbers without using the third variable
-
 public class SwapNum {
 
     public static void main(String args[]) {

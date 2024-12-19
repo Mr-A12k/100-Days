@@ -10,6 +10,9 @@ public class HollowPatterns {
         PatternA(5);
         PatternB(5);
         PatternC(5);
+        PatternD(5);
+        PatternE(5);
+        PatternF(5);
     }
 
     public static void Square(int n) {
@@ -106,5 +109,39 @@ public class HollowPatterns {
         System.out.println();
     }
 
-    
+    public static void PatternD(int n) {
+        int i, j;
+        for (i = 1; i <= n; i++) {
+            int printValue = i % 2 == 0 ? 0 : 1;
+            for (j = 1; j <= i; j++) {
+                System.out.print(printValue + " ");
+                printValue = printValue == 1 ? 0 : 1;
+            }
+            System.out.println();
+        }
+    }
+
+    public static void PatternE(int n) {
+        int i, j;
+        int printValue = 1;
+        for (i = 1; i <= n; i++) {
+            for (j = 1; j <= i; j++) {
+                System.out.print(printValue + " ");
+                printValue++;
+            }
+            System.out.println();
+        }
+    }
+
+    public static void PatternF(int n){
+        int i,j;
+        for(i=1; i<=(n*2)-1; i++){
+            int rowCount= i>n ? (n*2)-i:i;
+            for(j=1; j<=rowCount; j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+
 }
